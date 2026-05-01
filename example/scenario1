@@ -1,0 +1,32 @@
+## Scenario 1: Phishing Email (Credential Theft Attempt)
+
+### Email Content
+
+“Your account has been compromised. Click the link below immediately to secure your account.”
+
+### System Output
+
+* **Classification:** Spam / Suspicious
+* **Risk Level:** High
+* **Confidence:** Medium
+
+### Decision
+
+→ Routed to **human review queue** (within 2 hours)
+→ Not delivered to inbox or spam folder automatically
+
+### Reasoning
+
+* Contains **urgent and manipulative language** (“immediately”)
+* Includes an **unknown external link**
+* Matches common **phishing attack patterns**
+* Potential **security risk** if user interacts with the link
+
+### Risk Type
+
+* Security Risk (primary)
+* Reputation Risk (secondary, if user account is compromised)
+
+### Insight
+
+Even though the system detects phishing signals, **confidence is not high enough for full automation**, so human validation is required to prevent false positives or missed threats.
