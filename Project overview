@@ -1,0 +1,7 @@
+## Project Overview
+
+This project simulates a real-world AI-driven email classification system designed for organizations to manage incoming emails efficiently while minimizing security, financial, and compliance risks.
+
+The system classifies emails into spam and not spam, assigns a risk level (high, medium, low), and applies escalation rules based on risk and confidence levels.
+
+The goal is to balance "automation efficiency with human oversight for high-impact decisions".
