@@ -1,0 +1,37 @@
+## Scenario 2: Financial Fraud Email (Fake Payment Request)
+
+### Email Content
+
+“Hi, please process this urgent invoice payment today. Updated banking details are attached.”
+
+### System Output
+
+* **Classification:** Not Spam / Suspicious
+* **Risk Level:** High
+* **Confidence:** Low
+
+### Decision
+
+→ Routed to **human review queue**
+→ Marked as **high priority**
+→ No automatic action taken
+
+### Reasoning
+
+* Appears to be a **legitimate business request**
+* Contains **financial transaction instructions**
+* Includes **unexpected change in banking details**
+* Possible **Business Email Compromise (BEC)** scenario
+* Conflicting signals reduce confidence
+
+### Risk Type
+
+* Financial Risk (primary)
+* Security Risk (secondary)
+* Compliance Risk (if processed incorrectly)
+
+### Insight
+
+This scenario highlights a key limitation of AI systems:
+
+> Emails that appear legitimate but involve sensitive actions (like payments) require **human verification**, as automated systems may not reliably detect subtle fraud patterns.
