@@ -5,3 +5,19 @@ This project simulates a real-world AI-driven email classification system design
 The system classifies emails into spam and not spam, assigns a risk level (high, medium, low), and applies escalation rules based on risk and confidence levels.
 
 The goal is to balance "automation efficiency with human oversight for high-impact decisions".
+
+# Problem Statement
+
+Organizations receive large volumes of emails daily, including:
+
+- phishing attempts
+- financial fraud emails
+- critical business communication
+- internal operational updates
+
+Manual handling leads to:
+
+- delayed responses
+- security risks
+- compliance failures
+- operational inefficiency
